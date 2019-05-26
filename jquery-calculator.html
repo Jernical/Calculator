@@ -76,7 +76,7 @@
 <script type="text/javascript">
 
 $(document).ready(function() {
-
+//---------------------------------------------------------------------JS
 // Declar all my Vars
   var firstNum = "";                // empty string
   var secondNum = "";               // empty string
@@ -86,6 +86,7 @@ $(document).ready(function() {
   var selectedOperator;            // tracks when user has selected an operator
   var selectedEquals;              // tracks when user has completed operation
 
+    // All regular calculator functions
   var calc = {
     plus: function(a,b) {
       return a + b;
@@ -103,7 +104,7 @@ $(document).ready(function() {
       return a ** b;
     }
   };
-
+// Resets all feilds
   function reset() {
     $("#display h1").text("");
     $("#first-number h1").text("");
@@ -171,7 +172,8 @@ $(document).ready(function() {
   });
 
 });
-
+    
+//---------------------------------------------------------------------JS
 </script>
 
 </body>
